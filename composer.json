@@ -1,6 +1,6 @@
 {
     "name": "chriswillerton/encryptable",
-    "description": "Trait for use with Laravel 5 models allowing easy encryption of values.",
+    "description": "Trait for use with Laravel 5 models allowing easy encryption/decryption of attributes.",
     "keywords": ["laravel", "encryption", "model"],
     "license": "MIT",
     "authors": [

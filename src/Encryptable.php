@@ -19,7 +19,7 @@ trait Encryptable
             }
             catch (DecryptException $e)
             {
-                Log::error('Attribute "' . $key . '" cannot be decrypted in class ' . get_class($this));
+                Log::error('Attribute "' . $key . '" cannot be decrypted in class ' . get_class($this) . '. Details: ' . $e->getMessage());
             }
         }
 
